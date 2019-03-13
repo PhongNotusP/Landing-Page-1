@@ -1,0 +1,188 @@
+@media only screen  and (max-width:1200px){ /*hien thi 1024-1200px*/
+    html{
+        font-size: 16px;
+    }
+    .logo{
+        width: 170px;
+    }
+    .product-box .btn{
+        width: 80%;  
+        margin-left: 20px;   
+    }
+    .contact-section form{
+        width: 90%;
+    }
+    .sponsors-showcase li{
+        margin: 10px;
+    }
+    .social-icons li{
+        font-size: 34px;
+    }
+    .information i{
+        display: block;
+    }
+    .information li{
+        font-size: 15px;
+    }
+}
+
+@media only screen  and (max-width:1023px){ /*hien thi 768-1023px*/
+    .logo{
+        width: 170px;
+        margin-left: 5%;
+    }
+    .main-nav{
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    .main-nav li{
+        margin-right: 20px;
+    }
+    .heading-main-box{
+        transform: translate(-25%,-50%);
+    }
+    .product-box h3{
+        font-size: 13px;
+    }
+    .product-price{
+        font-size: 30px;
+    }
+    .product-box ul li{
+        margin-left: 10%;
+    }
+    .product-box .btn{
+        width: 70%;  
+        margin-top: 5px;  
+    }
+    cite{
+        font-size: 12px;
+    }
+    cite img{
+        height: 25px;
+    }
+    .logo-sponsors{
+        width: 80%;
+    }
+    .sponsors-showcase li{
+        width: 30%;
+        margin-right: -5%;
+    }
+    .contact-section form{
+        width: 105%;
+    }
+    .social-icons li{
+        font-size: 34px;
+    }
+    .information li{
+        font-size: 17px;
+    }
+}
+
+@media only screen  and (max-width:767px){ /*hien thi 481-767px*/
+        .col{
+            width: 100%;
+        }
+        .main-nav{
+            visibility: hidden;
+        }
+        .logo{
+            margin-left: 5rem;
+        }
+        h1{
+            word-spacing: 2px;
+            font-size: 250%;
+        }
+        .heading-main-box{
+            transform: translate(-17%,-50%);
+        }
+        .heading-main-box .btn{
+            width: 15%;
+        }
+
+
+        .about-section .row .p-long{
+            font-size: 20px;
+            width: 85%;
+        }
+        .about-section .row h2{
+            margin-left: -45px;
+        }
+        .about-picture{
+            text-align: center;
+        }
+
+        .about-picture img{
+            width: 80%;
+        }
+        .picture-title{
+            font-size: 20px;
+        }
+        .about-section{
+            height: 1300px;
+        }
+        .about-section h2::after{
+            width: 278px;
+        }
+
+
+        .product-section{
+            height: 1250px;
+        }
+        .product-section h2:after {
+            width: 162px;
+        }
+        .product-section h2{
+            margin-left: 11px; 
+        }
+        .product-box .btn{
+            margin-left: 35px;
+        }
+
+
+        .testimonials-section{
+            height: 980px;
+        }
+        blockquote{
+            margin-bottom: 40px;
+            font-size: 16px;
+            text-align: center;
+        }
+        cite{
+
+            font-size: 16px;
+        }
+        h2::after{
+            width: 205px;
+        }
+
+
+        .sponsors-section{
+            height: 400px;
+        }
+        .sponsors-section h2::after{
+            width: 160px;
+        }
+        .sponsors-showcase li{
+            width: 26%;
+        }
+        figcaption{
+            font-size: 8px;
+        }
+
+        .contact-section{
+            height: 1100px;
+        }
+        .information{
+            margin-top: -80px;
+            text-align: center;
+            font-size: 10px;
+        }
+        form{
+            width: 80%;
+        }
+        
+}
+
+@media only screen  and (max-width:480px){ /*hien thi 0-480px*/
+    
+}
