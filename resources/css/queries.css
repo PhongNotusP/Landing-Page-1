@@ -180,7 +180,17 @@
         form{
             width: 80%;
         }
-        
+        .social-icons li{
+            font-size: 35px;
+            margin: 7px;
+        }
+        .contact-section form{
+            transform: translate(-41%,20%);
+            width: 180%;
+        }
+        label{
+            margin-left: 40%;
+        }
 }
 
 @media only screen  and (max-width:480px){ /*hien thi 0-480px*/
