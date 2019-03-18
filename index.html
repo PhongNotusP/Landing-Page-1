@@ -3,6 +3,14 @@
 
 <head>
     <title>NotusP</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -12,16 +20,20 @@
 </head>
 
 <body>
-    <header>
-        <a href="#"><img class="logo" src="./resources/img/logo.png" alt="logo"></a>
-        <ul class="main-nav">
-            <!--unordered list-->
-            <li><a href="">How client think</a></li>
-            <!--list item-->
-            <li><a href="">About</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+    <header id="home">
+        <nav>
+            <a href="#home"><img class="logo" src="./resources/img/logo.png" alt="logo"></a>
+            <ul class="main-nav">
+                <!--unordered list-->
+                <li><a href="#testimonial">How client think</a></li>
+                <!--list item-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sponsors">Team</a></li>
+            </ul>
+            <i class="fas fa-bars mobile-nav-icon"></i>
+        </nav>
         <div class="clearfix"></div>
         <div class="row">
             <div class="heading-main-box">
@@ -29,12 +41,12 @@
                     We will study <br> English together. <br>
                     So join with us.
                 </h1>
-                <a href="#" class="btn">Tell me more</a>
-                <a href="#" class="btn">Join us</a>
+                <a href="#about" class="btn">Tell me more</a>
+                <a href="#product" class="btn">Join us</a>
             </div>
         </div>
     </header>
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="row">
             <h2>SASUKEEEE!!~~~!!!</h2>
             <p class="p-long">
@@ -69,7 +81,7 @@
             </div>
         </div>
     </section>
-    <section class="product-section">
+    <section class="product-section" id="product">
         <h2>Products</h2>
         <div class="row">
             <div class="col span_1_of_3">
@@ -107,12 +119,12 @@
             </div>
         </div>
     </section>
-    <section class="testimonials-section">
+    <section class="testimonials-section" id="testimonial">
         <h2>Testimonial</h2>
         <div class="row">
             <div class="col span_1_of_3">
                 <blockquote>
-                    Kẻ phá vở luật lệ của Ninja thì bị coi là rác rưởi, nhưng kẻ bỏ rơi bạn bè thì còn thua cả rác rưởi, 
+                    Kẻ phá vở luật lệ của Ninja thì bị coi là rác rưởi, nhưng kẻ bỏ rơi bạn bè thì còn thua cả rác rưởi,
                     Obito Tsunade Nagaki Sakura
                     <cite>
                         <img src="./resources/img/kakashi.jpg" alt="person1"> Hatele Kakashi
@@ -131,7 +143,7 @@
             <div class="col span_1_of_3">
                 <blockquote>
                     Hãy suy nghĩ 1000 lần trước khi quyết định . Sau khi quyết định, không bao giờ quay lại ngay cả khi
-                    gặp 1000 khó  khăn .
+                    gặp 1000 khó khăn .
                     <cite>
                         <img src="./resources/img/hitler.jpg" alt="person3"> Adolf Hitler
                     </cite>
@@ -139,7 +151,7 @@
             </div>
         </div>
     </section>
-    <section class="sponsors-section ">
+    <section class="sponsors-section" id="sponsors">
         <h2>SponSors</h2>
         <div class="row">
             <ul class="sponsors-showcase clearfix">
@@ -196,11 +208,12 @@
             </ul>
         </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <div class="row">
             <div class="col span_1_of_3">
                 <ul class="information">
-                    <li><i class="fas fa-map-marked-alt small-icon"></i> Address: 10/11 Bùi Công Trừng street, TPHCM</li>
+                    <li><i class="fas fa-map-marked-alt small-icon"></i> Address: 10/11 Bùi Công Trừng street, TPHCM
+                    </li>
                     <li><i class="fas fa-envelope small-icon"></i> Email: hpnguyen545@Gmail.com</li>
                     <li><i class="fas fa-phone small-icon"></i> Phone: (+84) 962-087-540</li>
                 </ul>
@@ -249,6 +262,10 @@
             Copyright &copy; 2019 by NoTusP
         </p>
     </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 
 </html>

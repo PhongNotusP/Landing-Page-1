@@ -1,4 +1,4 @@
-@media only screen  and (max-width:1200px){ /*hien thi 1024-1200px*/
+@media only screen  and (max-width: 1200px){ /*hien thi 1024-1200px*/
     html{
         font-size: 16px;
     }
@@ -9,12 +9,15 @@
         width: 80%;  
         margin-left: 20px;   
     }
+/* ------------------------------------------------------------ */
     .contact-section form{
         width: 90%;
     }
+/* ------------------------------------------------------------ */
     .sponsors-showcase li{
         margin: 10px;
     }
+/* ------------------------------------------------------------ */
     .social-icons li{
         font-size: 34px;
     }
@@ -26,7 +29,7 @@
     }
 }
 
-@media only screen  and (max-width:1023px){ /*hien thi 768-1023px*/
+@media only screen  and (max-width: 1023px){ /*hien thi 768-1023px*/
     .logo{
         width: 170px;
         margin-left: 5%;
@@ -54,6 +57,7 @@
         width: 70%;  
         margin-top: 5px;  
     }
+/* ------------------------------------------------------------ */
     cite{
         font-size: 12px;
     }
@@ -67,6 +71,7 @@
         width: 30%;
         margin-right: -5%;
     }
+/* ------------------------------------------------------------ */
     .contact-section form{
         width: 105%;
     }
@@ -78,15 +83,18 @@
     }
 }
 
-@media only screen  and (max-width:767px){ /*hien thi 481-767px*/
+@media only screen  and (max-width: 767px){ /*hien thi 481-767px*/
         .col{
             width: 100%;
         }
         .main-nav{
-            visibility: hidden;
+            display: none;
+        }
+        .mobile-nav-icon{
+            display: block;
         }
         .logo{
-            margin-left: 5rem;
+            margin-left: 3rem;
         }
         h1{
             word-spacing: 2px;
@@ -98,8 +106,7 @@
         .heading-main-box .btn{
             width: 15%;
         }
-
-
+/* ------------------------------------------------------------ */
         .about-section .row .p-long{
             font-size: 20px;
             width: 85%;
@@ -112,21 +119,20 @@
         }
 
         .about-picture img{
-            width: 80%;
+            width: 100%;
         }
         .picture-title{
             font-size: 20px;
         }
         .about-section{
-            height: 1300px;
+            height: 1500px;
         }
         .about-section h2::after{
-            width: 278px;
+            width: 278px;   
         }
-
-
+/* ------------------------------------------------------------ */
         .product-section{
-            height: 1250px;
+            height: 1420px;
         }
         .product-section h2:after {
             width: 162px;
@@ -137,10 +143,12 @@
         .product-box .btn{
             margin-left: 35px;
         }
-
-
+        .product-box ul li{
+           margin-left: 20%;
+        }
+/* ------------------------------------------------------------ */        
         .testimonials-section{
-            height: 980px;
+            height: 1030px;
         }
         blockquote{
             margin-bottom: 40px;
@@ -154,10 +162,9 @@
         h2::after{
             width: 205px;
         }
-
-
+/* ------------------------------------------------------------ */
         .sponsors-section{
-            height: 400px;
+            height: 450px;
         }
         .sponsors-section h2::after{
             width: 160px;
@@ -169,20 +176,28 @@
             font-size: 8px;
         }
 
+ /* ------------------------------------------------------------ */
         .contact-section{
-            height: 1100px;
+            height: 1000px;
         }
         .information{
             margin-top: -80px;
             text-align: center;
-            font-size: 10px;
+            
+        }
+        .information li{
+            font-size: 15px;          
         }
         form{
             width: 80%;
+            margin-left: 30%;
+        }
+        .social-icons{
+            text-align: center;
         }
         .social-icons li{
-            font-size: 35px;
-            margin: 7px;
+            font-size: 37px;
+            margin: 3px;
         }
         .contact-section form{
             transform: translate(-41%,20%);
@@ -191,8 +206,80 @@
         label{
             margin-left: 40%;
         }
+        .contact-section .row .btn{
+            transform: translate(32%,15%);
+        }
+        .social-icons li i:hover,
+        .social-icons li i:active{
+             transform: scale(1.5);
+        }
+        input{
+            margin-bottom: 20px;
+        }
+        input[type=submit]{
+            display: block;
+        }
+        
 }
 
-@media only screen  and (max-width:480px){ /*hien thi 0-480px*/
-    
+@media only screen  and (max-width: 480px){ /*hien thi 0-480px*/
+    html{
+        font-size: 10px;
+    }
+    .heading-main-box .btn{
+        display: block;
+        margin-bottom: 16px;
+        margin-left: 9%;
+    }
+    .heading-main-box h1{
+        transform: translate(6%,-20%);
+    }
+    .logo{
+        width: 35%;
+        margin-top: 10px;
+    }
+    .mobile-nav-icon{
+        font-size: 30px;
+        right: 90px;
+    }
+    /* ------------------------------------------------------------ */
+    .about-section h2::after{
+        width: 180px;
+    }
+    /* ------------------------------------------------------------ */
+    .product-section h2::after{
+        width: 103px;
+    }
+    .product-price{
+        font-size: 20px;
+    }
+    .product-box .btn{
+        margin-left: 15px;
+    }
+
+    /* ------------------------------------------------------------ */
+    .testimonials-section{
+        height: 1520px;
+    }
+    .testimonials-section h2::after{
+        width: 132px;
+    }
+
+    /* ------------------------------------------------------------ */
+    .sponsors-section h2::after{
+        width: 103px;
+    }
+
+
+    /* ------------------------------------------------------------ */
+    /* .sticky{
+        height: 100px;
+    } */
+    /* .sticky .logo{
+        width: 100px;
+        margin-top: 2px;
+    }
+    .sticky .mobile-nav-icon{
+        font-size: 30px;
+    } */
 }

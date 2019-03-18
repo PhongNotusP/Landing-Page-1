@@ -76,7 +76,7 @@ h2{
     color: #e67e22;
     font-weight: 700;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -50px;
 }
 h2:after{
     content: " ";
@@ -125,12 +125,14 @@ header{
     height: 100vh;
     /*vh = view height*/
     background-attachment: fixed;
+
 }
 .logo{
     width: 180px;
     float: left;
     margin-left: 60px;
     margin-top: -5px;
+    margin-bottom: -50px;
 }
 .main-nav{
     float: right;
@@ -147,7 +149,7 @@ header{
     color: white;
     font-size: 110%;
     font-weight: 700;
-    transition: border-bottom 0s;
+    transition: border-bottom 0.5s;
     padding: 3px 0;
 }
 .main-nav li a:hover,
@@ -162,16 +164,47 @@ header{
     transform: translate(-40%,-60%); /*tiến lùi tại vị trí*/
     width: 1139px;
 }
+/*---------------Sticky--------------*/
+.sticky{
+    background-color: rgba(2, 33, 64, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500; /*cho sticky nằm đè trên heading main box*/
+    width: 100%;    
+    padding-bottom: 10px;
+
+}
+.sticky .logo{
+    width: 120px;
+    margin-bottom: -20px;
+}
+.sticky .main-nav{
+    margin-top: 35px;
+}
+/*----------mobile navigation--------*/
+.mobile-nav-icon{
+    font-size: 180%;
+    color: #6ecad6;
+    position: absolute;
+    top: 85px;
+    right: 120px;
+    display: none;
+}
+.sticky .mobile-nav-icon{
+    top: 40px;
+}
+
 /* ------------------------------------------------------------------------------------- */
 /* ----------------------------------ABOUT SECTION-------------------------------------- */
 /* ------------------------------------------------------------------------------------- */
 .about-section{
     background-color: #530b0b;
-    height: 565px;
+    height: 665px;
 }
 .about-picture{
     position: relative;
-    margin-top: 40px;
+    margin-top: 80px;
 
 }
 .about-picture img{
@@ -195,11 +228,11 @@ header{
 }
 .about-picture:hover img,
 .about-picture:active img{
-    filter: brightness(50%) blur(2px);
+    filter: brightness(45%) blur(2px);
 }
 .about-picture:hover .picture-title,
 .about-picture:active .picture-title{
-    transform: translate(-65%,-50%);
+    transform: translate(-55%,-50%);
     opacity: 1;
 }
 /* ------------------------------------------------------------------------------------- */
@@ -207,10 +240,10 @@ header{
 /* ------------------------------------------------------------------------------------- */
 .product-section{
     background-color: #f4f4f4;
-    height: 565px;
+    height: 665px;
 }
 .product-section h2{
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
 .product-box{
     background-color: #eeefff;
@@ -246,10 +279,10 @@ header{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 565px;
+    height: 665px;
 }
 .testimonials-section h2{
-    margin-bottom: 80px;
+    margin-bottom: 140px;
 }
 blockquote{
     width: 90%;
@@ -319,7 +352,7 @@ figcaption{
 /* ----------------------------------CONTACT FORM-------------------------------------- */
 /* ------------------------------------------------------------------------------------- */
 .contact-section{
-    height: 565px;
+    height: 665px;
     background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url(../img/background3.jpg);
     background-position: center;
     background-size: cover;
@@ -380,7 +413,7 @@ figcaption{
 /*----------------------------FORM----------------------------*/
 form{
     background-color: rgba(0, 0, 0, 0.3);
-    margin-left: 35%;
+    margin-left: 25%;
     width: 75%;
     padding: 30px;
     margin-top: -70px;
