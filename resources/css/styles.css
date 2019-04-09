@@ -119,7 +119,7 @@ section{
 /* ----------------------------------HEADER-----------------------------------*/
 /*--------------------------------------------------------------------------------------*/
 header{
-    background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url("../img/background1.jpg");
+    background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url("https://res.cloudinary.com/dyogxjwr7/image/upload/v1554803650/background1.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -275,7 +275,7 @@ header{
 /* ----------------------------------TESTIMONIALS SECTION-------------------------------------- */
 /* ------------------------------------------------------------------------------------- */
 .testimonials-section{
-    background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url(../img/background2.jpg);
+    background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url(https://res.cloudinary.com/dyogxjwr7/image/upload/v1554803650/background2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -353,7 +353,7 @@ figcaption{
 /* ------------------------------------------------------------------------------------- */
 .contact-section{
     height: 665px;
-    background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url(../img/background3.jpg);
+    background-image: linear-gradient(45deg,RGBA(2,33,64,0.4) 55%,RGBA(45,95,93,0.85)), url(https://res.cloudinary.com/dyogxjwr7/image/upload/v1554803650/background3.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
